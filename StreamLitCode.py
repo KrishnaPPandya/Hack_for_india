@@ -158,7 +158,4 @@ elif page == "About Us":
     st.write("This is the about us page.")
     st.write("We are a team of developers working on this image classification app.")
 
-st.sidebar.title("About")
-st.sidebar.info(
-    "This is a simple image classification app using Streamlit and TensorFlow."
-)
+
