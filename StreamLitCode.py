@@ -60,7 +60,7 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 
 # Sidebar navigation
-page = st.sidebar.selectbox("Navigate", ["Home", "About Us"])
+page = st.sidebar.selectbox("Navigate", ["Home", "About Us","History"])
 
 # Toggle for dark mode
 #dark_mode = st.sidebar.checkbox("Dark Mode")
