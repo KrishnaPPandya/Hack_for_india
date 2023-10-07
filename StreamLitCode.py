@@ -111,6 +111,10 @@ if page == "Home":
             predicted_class = label
 
             st.write(f"Class: {predicted_class}")
+
+            # interp=ClassificationInterpretation.from_learner(model)
+            # interp.plot_confusion_matrix()
+            # interp.plot_top_losses (6)
             #st.write(f"Confidence: {confidence:.2f}")
 
     # Create a section to display reports
@@ -155,7 +159,7 @@ elif page == "About Us":
     """
     st.markdown(about_us_style, unsafe_allow_html=True)
     
-    st.write("This is the about us page.")
-    st.write("We are a team of developers working on this image classification app.")
-
+    st.write("Welcome to the Rice Leaf Disease Detection System project! We are a passionate team of researchers, developers, and agricultural enthusiasts dedicated to addressing the challenges faced by rice farmers and contributing to sustainable agriculture.")
+    st.header("Our Mission")
+    st.write("Our mission is to empower farmers and improve rice crop yields by leveraging cutting-edge technology. We believe that early and accurate detection of diseases in rice plants can make a significant difference in crop health and overall agricultural productivity.")
 
