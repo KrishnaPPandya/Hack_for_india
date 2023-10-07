@@ -1,6 +1,10 @@
 # Hack_for_india
 ## Rice Leaf Disease Classification Program
 
+## For Local File : Please Add Proper Path
+## For Drive : You Need To Add The DataSet To Drive
+
+
 ### Table of Contents
 * Introduction
 * Features
